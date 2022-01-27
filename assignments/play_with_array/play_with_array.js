@@ -7,7 +7,9 @@ function getEven(arr) {
 
         Write you code below
     */
-   var arr1=arr.filter(ele =>{if(ele%2==0) { return ele }})
+   
+    var arr1=arr.filter(ele =>{if(ele%2==0) { return ele }})
+
    
    
    
