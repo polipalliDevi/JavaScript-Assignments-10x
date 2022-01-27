@@ -7,12 +7,10 @@ function getEven(arr) {
 
         Write you code below
     */
-   var arr1=[]
-   for (var i=0;i<arr.length;i++){
-       if (arr[i]%2===0) {
-           arr1.push(arr[i])
-       }
-   }
+   var arr1=arr.filter(ele =>{if(ele%2==0) { return ele }})
+   
+   
+   
    return arr1
 
 }
